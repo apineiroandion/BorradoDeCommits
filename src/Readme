@@ -1,0 +1,11 @@
+En la clase del lunes 8/1, exploramos la existencia de dos áreas distintas en el proceso de control de versiones: la
+zona de trabajo (working) y la zona de preparación (stage). Mientras estamos codificando, interactuamos principalmente
+con la zona de trabajo. Al utilizar el comando 'add', trasladamos los archivos modificados a la zona de stage para su
+preparación antes de la confirmación mediante un commit.
+
+Es importante destacar que solo podemos realizar modificaciones en la zona de trabajo. Si deseamos recuperar cambios
+antes de realizar un commit después de un 'add', podemos emplear el comando 'git restore'. Esto evita subir otros
+archivos con cambios a la zona de stage, ya que esto resultaría en un commit de todos los elementos presentes en dicha zona.
+
+Adicionalmente, abordamos la utilidad de 'git amend', que nos permite añadir archivos a un commit previamente
+realizado, ofreciendo flexibilidad en la gestión de versiones.
